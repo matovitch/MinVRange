@@ -1,0 +1,5 @@
+include_rules
+
+OBJS = $(ROOT)/examples/*.o
+
+: $(OBJS) |> !ld |>
