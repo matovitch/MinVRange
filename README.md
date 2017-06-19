@@ -1,6 +1,9 @@
 # MinVRange
 
-> Please note this is a **work in progress**... 
+  * [What is this ?](#what-is-this--)
+  * [Features and limitations](#features-and-limitations)
+  * [Show me some code !](#show-me-some-code--)
+  * [TODOs](#todos)
 
 ## What is this ?
 
