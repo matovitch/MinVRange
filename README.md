@@ -10,10 +10,12 @@
 
 ## Features and limitations
 
-&#8193; &#10133; (quite) easy to use 
+&#8193; &#10133; (quite) easy to use
+
 &#8193; &#10133; very small 
 
-&#8193; &#10134; lots of missing range/indexes (WIP) 
+&#8193; &#10134; lots of missing range/indexes (WIP)
+
 &#8193; &#10134; not optimized for speed  
 
 ## Show me some code !
@@ -53,21 +55,7 @@ int main()
 }
 ```
 
-## Overview
-
-```c++
-namespace cosche
-{
-    struct Scheduler
-    {
-        template <class Rt> Task<Rt>& Scheduler::getNewTask();
-        template <class Rt> void reserveTasks(std::size_t);
-        void Scheduler::run();
-    }
-}
-```
-
-- ####TODOs
+## TODOs
 
   - add filter, fold, reverse, interleave..and so much more
   - unit tests ? (Nah with all these variadic temlate checks; if it compiles, I am probably fine isn't it ?)
